@@ -1,6 +1,6 @@
 <div id="page" class="page-default">
   <a name="Top" id="Top"></a>
-  <?php if(isset($page['show_skins_menu']) && $page['show_skins_menu']):?>
+  <?php if($is_admin && isset($page['show_skins_menu']) && $page['show_skins_menu']):?>
     <?php print $page['show_skins_menu'];?>
   <?php endif;?>
 

@@ -339,3 +339,30 @@ a.btn-btt {
 #menu-bar-wrapper ul.menu ul li a {
   color: #aaa;
 }
+
+/* CUSTOM STYLES*/
+
+body {
+    background: url(../../images/bg.png);
+}
+
+#menu-bar-wrapper ul.menu ul  {
+    background: #564640;
+    border: none;
+    border-bottom: 3px #e64E4D outset;
+    border-radius: 0 5px 0 15px;
+    box-shadow: 5px 5px 20px black;
+}
+
+#menu-bar-wrapper ul.menu ul li.last {
+    border-radius: 0 5px 0 15px;
+}
+
+#menu-bar-wrapper ul.menu ul li:hover {
+    background-color: #8f4323;
+}
+
+#panel-third-wrapper .block-inner, #breadcrumb-wrapper, #footer-wrapper .grid-inner {
+border: none;
+}
+
