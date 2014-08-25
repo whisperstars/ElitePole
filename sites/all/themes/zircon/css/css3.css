@@ -39,10 +39,10 @@
 }
 
 #panel-third-wrapper .container {
-  -webkit-border-top-left-radius: 5px;
+  /*-webkit-border-top-left-radius: 5px;
   -webkit-border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-right-radius: 5px;*/
 }
 
 #footer-wrapper .container {
@@ -70,9 +70,9 @@
 }
 
 #main-wrapper > .container {
-  -webkit-border-radius: 5px;
+  -webkit-border-radius: 5px 5px 0 0;
   -webkit-box-shadow: 0 0 5px #ccc;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
   box-shadow: 0 0 5px #ccc;
 }
 

@@ -299,7 +299,12 @@ a.btn-btt {
 #panel-third-wrapper .container,
 #panel-second-wrapper .container,
 #footer-wrapper .container {
-  background: url(images/bg-1.gif) repeat 0 0 #5a4a44;
+  /*background: url(images/bg-1.gif) repeat 0 0 #5a4a44;*/
+  background-image: url("images/widgets-shadow.png"), url("images/widgets.png");
+  background-position: left bottom, left bottom;
+  background-repeat: repeat-x, repeat;
+  border: 1px solid #4B382E;
+  box-shadow: 0 0 5px #6D582E;
 }
 
 #panel-third-wrapper .block-inner,

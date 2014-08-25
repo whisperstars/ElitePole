@@ -52,6 +52,7 @@
     <meta name="HandheldFriendly" content="true" />
     <meta name="apple-touch-fullscreen" content="YES" />
     <!-- //META FOR IOS & HANDHELD -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,700,600&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <?php print $styles; ?>
     <?php print $scripts; ?>
   </head>

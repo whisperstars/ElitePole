@@ -65,6 +65,10 @@
   border-right: 1px dotted #717578;
   color: #c9c9c9;
   padding: 0 15px;
+
+  font-size: 14px;
+  color: #e7d7ba;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
 }
 
 #panel-third-wrapper h2 {
@@ -75,6 +79,9 @@
   margin: 0 0 15px;
   text-shadow: 0 1px 0 #111;
   text-transform: uppercase;
+
+  color: #e09402;
+  font-weight: 700;
 }
 
 .block-custom-links .block-content ul {

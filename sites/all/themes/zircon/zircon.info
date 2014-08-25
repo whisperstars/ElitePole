@@ -36,6 +36,7 @@ stylesheets-conditional[IE 7][all][] = css/ie7.css
 
 ; Supported Javascript
 scripts[] = 'js/zircon.js'
+scripts[] = 'js/script.js'
 scripts[] = 'js/responsive.js'
 scripts[] = 'js/jquery.masonry.js'
 scripts[] = 'js/jquery.masonry.min.js'

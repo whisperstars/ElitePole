@@ -1,0 +1,6 @@
+name = ajax_field_load
+description = Load rendered field via ajax
+package = Fields
+
+core = 7.x
+version = 0.1

@@ -5,7 +5,7 @@
 #main-wrapper > .container {
   background: #fff;
   border: 1px solid #d9d9d9;
-  margin-bottom: 15px;
+  border-bottom: 4px #EE9B05 solid;
 }
 
 #header-wrapper .grid-inner {
@@ -69,6 +69,8 @@
   margin: 15px 0;
   position: relative;
   z-index: 499;
+
+  font-size: 12px;
 }
 
 #menu-bar-wrapper .grid-inner {
@@ -490,4 +492,49 @@
 
 #page #credits {
   display: none;
+}
+
+
+.panel-col-middle .field-name-field-colors .field-item {
+  float: left;
+}
+
+.panel-col-middle .field-name-field-colors .field-item {
+  float: left;
+}
+
+.panel-col-middle .field-name-field-colors {
+  clear: both;
+}
+
+.panel-col-middle .field-name-field-colors .field-item .field-name-field-color {
+  float: left;
+  margin-right: 5px;
+}
+
+.panel-col-middle .field-name-field-colors .field-item .field-name-field-color .field-item {
+  line-height: 30px;
+}
+
+.panel-col-middle .field-name-field-colors .field-item .field-name-field-color-img {
+  float: left;
+}
+
+.panel-col-middle .field-name-field-colors .field-item .field-collection-view {
+  border: none;
+  margin: 0 15px 0 0;
+}
+
+.field-name-field-cost {
+  font-weight: bold;
+  color: #FB6A2C;
+  font-size: 16px;
+}
+
+.field-name-field-img-collection .gallery-thumbs {
+  border: none;
+}
+
+.field-name-field-img-collection .field-collection-view {
+  padding-top: 3px;
 }
