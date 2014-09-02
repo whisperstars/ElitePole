@@ -1,0 +1,12 @@
+name = Webform Transformer
+description = This module adds a new webform component that transforms user input based on a self defined pattern.
+core = 7.x
+package = Webform
+dependencies[] = webform
+dependencies[] = libraries
+; Information added by drupal.org packaging script on 2013-10-26
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "webform_transformer"
+datestamp = "1382756199"
+

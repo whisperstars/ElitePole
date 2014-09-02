@@ -1,0 +1,53 @@
+<?php
+/**
+ * @file
+ * Main module file for Webform Structured Text.
+ *
+ * @author Shawn Sheridan <Shawn@SDSheridan.com>
+ */
+
+/**
+ * Implements hook_help().
+ */
+function webform_structured_text_help($section = 'admin/help#webform_structured_text', $arg = NULL) {
+  switch ($section) {
+    case 'admin/help#webform_structured_text':
+      // Return a line-break version of the module README.txt
+      return nl2br(file_get_contents(drupal_get_path('module', 'webform_structured_text') . '/README.txt'));
+  }
+  return '';
+}
+
+/**
+ * Implements hook_webform_component_info().
+ */
+function webform_structured_text_webform_component_info() {
+  $components = array();
+
+  $components['structured_text'] = array(
+    'label' => t('Structured textfield'),
+    'description' => t('A textfield type that uses an input mask, rendering the portions of the masked field as separate text fields.'),
+    'features' => array(
+      'csv' => TRUE,
+      'default_value' => FALSE,
+      'description' => TRUE,
+      'email' => TRUE,
+      'email_address' => FALSE,
+      'email_name' => TRUE,
+      'required' => TRUE,
+      'title' => TRUE,
+      'title_display' => TRUE,
+      'title_inline' => TRUE,
+      'conditional' => TRUE,
+      'group' => FALSE,
+      'spam_analysis' => FALSE,
+      'attachment' => FALSE,
+    ),
+    'file' => 'structured_text.inc',
+  );
+
+  return $components;
+}
+
+
+
