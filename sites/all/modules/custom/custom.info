@@ -1,0 +1,6 @@
+name = custom
+description = Create slideshow node
+package = custom
+
+core = 7.x
+version = 0.1

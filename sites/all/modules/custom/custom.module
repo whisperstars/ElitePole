@@ -1,0 +1,53 @@
+<?php
+	
+function custom_enable() {
+	/*$node = new stdClass();
+	$node->type = 'SlideshowImage';
+	node_object_prepare($node);
+	*/
+}
+
+/*function custom_menu() {
+	$items['custom/slideLoad'] = array(
+		'page callback' => '_slideLoadPage',
+		'access arguments' => true,
+	);
+
+	return $items;
+}
+
+function _slideLoadPage() {
+	$dir = drupal_dirname(drupal_realpath('index.php')) . '/slides/';
+
+	$files = scandir($dir);
+	$files_length = count($files);
+
+	for($i=2; $i < $files_length; $i++) {
+		$file = (object)array(
+			'uid' => 1,
+			'uri' => $dir . $files[$i],
+			'filename' => basename($dir . $files[$i]),
+			'filemime' => $dir . $files[$i],
+		);
+
+		$file = file_copy($file, 'public://images');
+
+		if ($file) {
+			$node = new stdClass();
+			$node->type = 'SlideshowImage';
+			
+			node_object_prepare($node);
+			
+			$node->language = LANGUAGE_NONE;
+			$node->title = 'slide' . $i;
+			$node->uid = 1;
+			$node->status = 1;
+			$node->promote = 1;
+			$node->field_image[LANGUAGE_NONE][] = (array)$file;
+
+			node_save($node);
+		}
+	}
+
+	return "files are load successfuly";
+}*/
