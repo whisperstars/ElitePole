@@ -53,9 +53,9 @@
 }
 
 #panel-third-wrapper .block-views .views-row {
-  border-bottom: 1px dotted #717578;
+  /*border-bottom: 1px dotted #717578;*/
   overflow: hidden;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 #panel-third-wrapper .block-views .views-row-last {
@@ -80,7 +80,7 @@
 #panel-third-wrapper .block-views .views-field-title .field-content a:hover,
 #panel-third-wrapper .block-views .views-field-title .field-content a:focus,
 #panel-third-wrapper .block-views .views-field-title .field-content a:active {
-  color: #fff;
+  color: #ff6600;
   text-decoration: none;
 }
 

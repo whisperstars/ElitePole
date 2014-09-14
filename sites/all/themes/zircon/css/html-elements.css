@@ -41,8 +41,16 @@ p {
   padding: 0;
 }
 
+.region-panel-third-3 p {
+  margin: 0;
+}
+
 p:first-child {
   margin-top: 0;
+}
+
+.view-news-view p:first-child {
+  margin-top: 1em;
 }
 
 em,
@@ -189,7 +197,7 @@ th a:focus {
 }
 
 td {
-  padding: .75em 1em;
+  padding: 5px 0;
 }
 
 tr.even,

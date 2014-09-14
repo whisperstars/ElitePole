@@ -22,9 +22,9 @@
 .node-title,
 .region-content .view .views-row .views-field-title,
 .region-content .view .views-row .views-field-name {
-  color: #333;
+  /*color: #333;*/
   font-family: 'oswaldregular';
-  font-size: 2em;
+  font-size: 20px;
   font-weight: normal;
   margin: 0 0 10px;
 }
@@ -35,7 +35,7 @@
 .region-content .view .views-row .views-field-title a:visited,
 .region-content .view .views-row .views-field-name a,
 .region-content .view .views-row .views-field-name a:visited {
-  color: #333;
+  /*color: #333;*/
 }
 
 .node-title a:hover,

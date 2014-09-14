@@ -7,6 +7,30 @@ a:hover {
   color: #ff6600;
 }
 
+.view-accessories-catalog span {
+  color: #333;
+  width: 100%;
+  display: block;
+}
+
+.view-accessories-catalog a {
+  color: #333;
+  display: block;
+  padding: 10px;
+}
+
+.region-content .view-accessories-catalog .views-view-grid .grid-inner {
+  padding: 0;
+}
+
+.region-content .view-accessories-catalog .views-row .views-field-title, .region-content .view .views-row .views-field-name {
+  margin: 0;
+}
+
+.view-accessories-catalog .grid-inner:hover a {
+  color: #ff6600;
+}
+
 #menu-bar-wrapper {
   background: url(images/bg-nav.gif) repeat-x 0 0 #564640;
 }
@@ -107,7 +131,7 @@ a:hover {
 }
 
 .block ul.menu li a {
-  background: url(images/ico-menu.png) 5px 11px no-repeat;
+  /*background: url(images/ico-menu.png) 5px 11px no-repeat;*/
 }
 
 .block ul.menu li.active-trail > a,
@@ -472,4 +496,8 @@ textarea::-moz-placeholder {
 
 .block-title {
   font-weight: bold;
+}
+
+.sf-menu {
+  line-height: normal;
 }
