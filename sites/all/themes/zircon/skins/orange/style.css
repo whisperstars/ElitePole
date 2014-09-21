@@ -506,11 +506,30 @@ textarea::-moz-placeholder {
   z-index: 5000;
 }
 
+.ui-dialog {
+  position: fixed;
+}
+
 #calc_block .results .name {
   clear: both;
+  color: green;
+  font-weight: bold;
 }
 
 #calc_block .results .number, #calc_block .results .cost {
+  margin-left: 5px;
+}
+
+#calc_block .results .cost {
+  color: red;
+  font-weight: bold;
+}
+
+#calc_block .results .total div {
   float: left;
-  margin-left: 3px;
+  color: green;
+}
+
+.input_error {
+  border: 1px solid red;
 }

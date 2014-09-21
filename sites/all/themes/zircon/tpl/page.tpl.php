@@ -71,8 +71,7 @@
                 <div class="cost"></div>
               </div>
               <div class="total">
-                <div class="name">Итого:</div>
-                <div class="number"></div>
+                <div class="name">Итого</div>
                 <div class="cost"></div>
               </div>
             </div>

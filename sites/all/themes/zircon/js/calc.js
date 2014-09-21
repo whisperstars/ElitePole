@@ -49,7 +49,11 @@ function dataBinding ($, context) {
     $('.' + bind[i] + ' ' + '.number', context).text('Количество: ' + (res[bind[i]]["number"]).toFixed(2));
     $('.' + bind[i] + ' ' + '.cost', context).text('Стоимость: ' + (res[bind[i]]["cost"]).toFixed(2));
   }
-  $('.total .cost', context).text('Стоимость: ' + (res['total']).toFixed(2));
+  $('.total .cost', context).text('cтоимость: ' + (res['total']).toFixed(2));
+}
+
+function isNumeric(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n);
 }
 
 (function ($) {
@@ -75,11 +79,25 @@ function dataBinding ($, context) {
       });
 
       $("input.length", $calcBlock).change(function () {
-        dataBinding($, $calcBlock);
+        if(isNumeric($(this).val())) {
+          dataBinding($, $calcBlock);
+          $(this).removeClass("input_error");
+        } else {
+          $(this).addClass("input_error");
+          $(this).val("");
+          $(this).attr("placeholder", "Введите число");
+        }
       });
 
       $("input.width", $calcBlock).change(function () {
-        dataBinding($, $calcBlock);
+        if(isNumeric($(this).val())) {
+          dataBinding($, $calcBlock);
+          $(this).removeClass("input_error");
+        } else {
+          $(this).addClass("input_error");
+          $(this).val("");
+          $(this).attr("placeholder", "Введите число");
+        }
       });
 
       return false;
