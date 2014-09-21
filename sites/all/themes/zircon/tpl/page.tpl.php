@@ -31,6 +31,53 @@
             </div>
           <?php endif; ?>
 
+          <a href="#" id="calc_btn">Калькулятор стоимости заказа</a>
+          <div id="calc_block">
+            <label class="decking">Тип доски:</label>
+            <select class="decking">
+              <option value="lite">Tardex Lite</option>
+              <option value="clasic">Tardex Clasic</option>
+              <option value="prof">Tardex Proffesional</option>
+            </select>
+            
+            <div>
+              <label class="length">Длина:</label>
+              <input type="text" class="length" placeholder="Длина" value="2" />
+            </div>
+            <div>
+              <label class="width">Ширина:</label>
+              <input type="text" class="width" placeholder="Ширина" value="3" />
+            </div>
+            
+            <div class="results">
+              <div class="corner">
+                <div class="name">Уголок:</div>
+                <div class="number"></div>
+                <div class="cost"></div>
+              </div>
+              <div class="laga">
+                <div class="name">Лага:</div>
+                <div class="number"></div>
+                <div class="cost"></div>
+              </div>
+              <div class="clip">
+                <div class="name">Клипса:</div>
+                <div class="number"></div>
+                <div class="cost"></div>
+              </div>
+              <div class="decking">
+                <div class="name">Доска:</div>
+                <div class="number"></div>
+                <div class="cost"></div>
+              </div>
+              <div class="total">
+                <div class="name">Итого:</div>
+                <div class="number"></div>
+                <div class="cost"></div>
+              </div>
+            </div>
+          </div>
+
           <?php if ($header = render($page['header'])): print $header; endif; ?>
 
           <?php if ($secondary_menu): ?>

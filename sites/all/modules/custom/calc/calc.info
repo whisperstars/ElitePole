@@ -1,0 +1,4 @@
+name = calc
+description = "Форма применения цен товаров"
+version = 0.1
+core = 7.x

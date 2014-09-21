@@ -1,0 +1,34 @@
+<?php
+
+function calc_menu() {
+	$items['admin/config/user-interface'] = array(
+		'title' => 'calculator',
+		'description' => 'Settings for product price',
+		'page callback' => 'drupal_get_form',
+		'page arguments' => array('calc_settings_form'),
+		'access arguments' => array('access calc'),
+		'type' => MENU_NORMAL_ITEM,
+	);
+
+	return $items;
+}
+
+function calc_permission() {
+	return array(
+		'access calc' => array(
+			'title' => t('Access calc'),
+			'description' => t('Access the calc admin section.'),
+		),
+	);
+}
+
+function calc_settings_form() {
+	$form['decking'] = array(
+		'#type' => 'fieldset',
+		'#title' => t('Decking'),
+	);
+
+	$form['decking']['lite'] = array(
+		
+	);
+}

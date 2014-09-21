@@ -42,6 +42,7 @@ scripts[] = 'js/script.js'
 scripts[] = 'js/responsive.js'
 scripts[] = 'js/jquery.masonry.js'
 scripts[] = 'js/jquery.masonry.min.js'
+scripts[] = 'js/calc.js'
 
 ;*************************************************
 ;****************** REGIONS **********************

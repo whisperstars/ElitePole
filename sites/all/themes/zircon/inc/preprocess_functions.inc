@@ -93,7 +93,9 @@ function zircon_preprocess_page(&$vars) {
 		}
 	  }
 	})(jQuery);
-  ', 'inline');  
+  ', 'inline');
+
+  drupal_add_library('system', 'ui.dialog');
 }
 
 /**
