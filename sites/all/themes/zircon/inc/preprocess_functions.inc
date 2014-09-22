@@ -96,6 +96,8 @@ function zircon_preprocess_page(&$vars) {
   ', 'inline');
 
   drupal_add_library('system', 'ui.dialog');
+
+  libraries_load('jquery.placeholder');
 }
 
 /**

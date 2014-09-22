@@ -533,3 +533,7 @@ textarea::-moz-placeholder {
 .input_error {
   border: 1px solid red;
 }
+
+#calc_block input::-moz-placeholder {
+    color: inherit;
+}

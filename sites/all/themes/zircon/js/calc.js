@@ -58,8 +58,11 @@ function isNumeric(n) {
 
 (function ($) {
   $(function () {
-    var $calcBlock = $('#calc_block');
 
+    var $calcBlock = $('#calc_block');
+    
+    $('input, textarea').placeholder();
+    
     if ($calcBlock.length > 0) {
       $calcBlock.dialog({
         autoOpen: false,
